@@ -1,4 +1,4 @@
-import contacts from "./db/contacts.js"
+import contacts from "./contacts.js"
 import yargs from "yargs";
 
 const invokeAction = async ({ action, id, name, email, phone }) => {
